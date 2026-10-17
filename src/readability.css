@@ -1,0 +1,113 @@
+body{font-size:15px}
+.nav-item{font-size:13px}
+.nav-label,.eyebrow{font-size:10px}
+.demo-ribbon{font-size:11px}
+.demo-ribbon>span:first-child,.demo-ribbon button{font-size:10px}
+.page-content{padding-top:32px}
+.page-heading h1{font-size:30px}
+.page-heading p{font-size:14px;line-height:1.65}
+.button-primary,.button-secondary,.button-danger{font-size:12px;min-height:37px;padding:0 14px}
+.scenario-note{padding:13px 15px}
+.scenario-note strong{font-size:13px}
+.scenario-note small,.scenario-note>button{font-size:11px}
+.metric-card{min-height:143px;padding:16px}
+.metric-top{font-size:10px}
+.metric-icon{width:33px;height:33px}
+.metric-value{font-size:32px;margin:12px 0 4px}
+.metric-value small{font-size:14px}
+.metric-change{font-size:11px}
+.metric-foot{font-size:10px}
+.panel-title{font-size:14px}
+.panel-subtitle{font-size:11px;line-height:1.5}
+.section-title{font-size:14px}
+.section-caption{font-size:11px}
+.activity-copy strong{font-size:11px}
+.activity-copy span,.activity-item time{font-size:10px}
+.text-button,.map-legend{font-size:11px}
+.network-node b{font-size:10px}
+.data-table th{font-size:10px;padding-top:13px;padding-bottom:13px}
+.data-table td{font-size:11px;padding-top:13px;padding-bottom:13px}
+.incident-name strong{font-size:11px}
+.incident-name span,.mono-cell,.time-cell{font-size:10px!important}
+.badge{font-size:10px;padding:5px 7px}
+.filter-pills button,.table-search input,.compact-select{font-size:10px}
+.table-footer,.source-footnote{font-size:10px;line-height:1.6}
+.table-toolbar{padding:15px}
+.plain-language-card{display:flex;align-items:center;gap:14px;padding:16px;margin:0 0 14px;border:1px solid rgba(61,137,155,.23);border-radius:10px;background:linear-gradient(100deg,rgba(37,91,110,.12),rgba(28,42,60,.13))}
+.plain-language-icon{width:38px;height:38px;flex:none;display:grid;place-items:center;border-radius:10px;color:#61d5df;background:rgba(54,192,202,.1)}
+.plain-language-card>div:nth-child(2){flex:1}
+.plain-language-card strong{font-size:15px;line-height:1.4}
+.plain-language-card p{margin:5px 0 0;color:#a3afc0;font-size:12px;line-height:1.6}
+.plain-info-button{display:flex;align-items:center;gap:6px;background:transparent;color:#86d3da;border:1px solid rgba(95,176,188,.23);border-radius:6px;padding:8px 10px;font-size:11px;white-space:nowrap}
+.plain-info-button:hover{background:rgba(49,181,193,.08)}
+.simple-incident-list{border:1px solid var(--border-soft);border-radius:9px;overflow:hidden;background:var(--surface)}
+.simple-incident{width:100%;display:flex;align-items:center;gap:12px;padding:14px 15px;text-align:left;background:transparent;border:0;border-bottom:1px solid var(--border-soft)}
+.simple-incident:last-child{border-bottom:0}
+.simple-incident:hover{background:rgba(66,194,207,.045)}
+.simple-incident-mark{width:9px;height:9px;border-radius:50%;flex:none}
+.simple-incident-mark.red{background:#fb6478}
+.simple-incident-mark.orange{background:#f2a165}
+.simple-incident-mark.yellow{background:#ebc75e}
+.simple-incident-mark.green{background:#55cb99}
+.simple-incident-copy{flex:1;min-width:0}
+.simple-incident-copy strong,.simple-incident-copy small{display:block}
+.simple-incident-copy strong{font-size:13px}
+.simple-incident-copy small{font-size:11px;color:var(--muted);margin-top:4px;line-height:1.5}
+.simple-incident-action{display:flex;align-items:center;gap:5px;color:#82cbd4;font-size:11px;white-space:nowrap}
+.incident-panel .data-table td,.asset-panel .data-table td{font-size:12px}
+.incident-stat-row span{font-size:10px}
+.activity-link{font-size:11px;min-height:34px}
+.scanner-disclosure,.overview-banner,.map-disclosure,.surface-warning{font-size:11px;line-height:1.6}
+.scanner-disclosure strong,.overview-banner strong{font-size:12px}
+.scanner-disclosure>div:nth-child(2)>span,.overview-banner small{font-size:10px}
+.field-label,.sample-label{font-size:10px}
+.url-input{height:43px}
+.url-input input{font-size:12px}
+.sample-urls button{font-size:11px;height:42px}
+.sample-urls small{font-size:10px}
+.scanner-local-note,.result-checks>div,.result-disclaimer,.empty-scan p{font-size:10px}
+.empty-scan h2{font-size:17px}
+.drawer-summary{font-size:12px}
+.detail-cell span{font-size:9px}
+.detail-cell strong{font-size:11px}
+.recommend-list{font-size:11px}
+.tour-card p{font-size:12px}
+.tour-card h2{font-size:21px}
+.tour-progress{font-size:10px}
+.settings-row>div:first-child strong{font-size:12px}
+.settings-row>div:first-child span{font-size:10px}
+.scenario-option strong{font-size:10px}
+.scenario-option small{font-size:9px}
+.popover-heading,.notification-entry strong{font-size:12px}
+.notification-entry p,.profile-pop>span,.profile-pop button{font-size:10px}
+.light-mode .plain-language-card p{color:#566478}
+@media(max-width:620px){
+  .page-content{padding-top:22px}
+  .page-heading h1{font-size:25px}
+  .page-heading p{font-size:13px}
+  .metric-card{min-height:132px;padding:12px}
+  .metric-top{font-size:9px}
+  .metric-value{font-size:27px}
+  .metric-change{font-size:10px}
+  .metric-foot{font-size:9px}
+  .scenario-note{gap:8px}
+  .scenario-note>button{font-size:10px}
+  .plain-language-card{align-items:flex-start;flex-wrap:wrap;padding:13px}
+  .plain-language-card>div:nth-child(2){min-width:calc(100% - 54px)}
+  .plain-language-card strong{font-size:14px}
+  .plain-language-card p{font-size:11px}
+  .plain-info-button{margin-left:51px;font-size:10px}
+  .simple-incident{padding:12px 10px;gap:8px}
+  .simple-incident-copy strong{font-size:11px}
+  .simple-incident-copy small{font-size:9px}
+  .simple-incident-action{font-size:9px}
+  .simple-incident .badge{font-size:8px}
+  .demo-ribbon{font-size:9px}
+  .demo-ribbon>span:first-child,.demo-ribbon button{font-size:9px}
+  .nav-item{font-size:12px}
+  .panel-title{font-size:13px}
+  .panel-subtitle{font-size:10px}
+  .eyebrow{font-size:9px}
+  .table-footer,.source-footnote{font-size:9px}
+  .scenario-note small{font-size:10px}
+}
